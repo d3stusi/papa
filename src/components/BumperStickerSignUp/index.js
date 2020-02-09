@@ -7,10 +7,10 @@ import BumperPicture from '../../img/bumper_sticker.png'
 const BumperContainer = styled.div`
 display: flex;
 justify-content: center;
-margin: 100px 0;
+margin: 2em 0 0 0;
 
 @media (max-width: 850px) {
-  flex-flow: column;  
+  flex-flow: column;
   align-items: center;
 }
 `
@@ -26,11 +26,17 @@ align-items: center;
   width: 450px;
   margin-left: 0;
 }
+
+
+@media (max-width: 380px) {
+  width: 360px;
+  margin-bottom: 25px;
+}
 `
 
 const BumperForm = styled.form`
 width: 530px;
-height: 300px;
+
 display: flex;
 align-items: center;
 flex-flow: column;

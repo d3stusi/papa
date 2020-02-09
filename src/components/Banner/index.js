@@ -12,6 +12,14 @@ justify-content: center;
 flex-flow: column;
 `
 
+const ColoringPages = styled.div`
+width: 80%;
+display: flex;
+flex-flow: column;
+align-items: center;
+margin: auto;
+margin-top: 3em;
+`
 const WorkInProgress = styled.div`
 text-align: center;
 margin: 20px;
@@ -74,30 +82,18 @@ border-radius: 33px;
 
 const Banner = () => (
   <Container>
-    <WorkInProgress>
-      <h1>This website is a work in progress</h1>
-    </WorkInProgress>
+
     <Adverts>
-        <Single
-            background="#71DFC0"
-            onClick={() => window.open('https://www.gofundme.com/papahanaumokuakea-song-n-color-book')}
-        >
-            <img src={GoFundMeImg}/>
-            <Description>
-                <h2>Join our</h2>
-                <h2>Fundraising efforts</h2>
-                <p>Click here for more info</p>
-            </Description>
-        </Single>
+
         <Single
             background="#1EB1F3"
             onClick={() => window.open('https://youtu.be/S36BuGngZjc')}
         >
             <img src={PIPLogo}/>
             <Description>
-                <h2>TV Show Premiere</h2>
-                <h2>May 25 2018</h2>
-                <p>Watch online here!</p>
+                <h2>Watch the Papahānaumokuākea</h2>
+                <h2>TV Episode Here!</h2>
+
             </Description>
         </Single>
         {/*<Single background="#1EB1F3">*/}
@@ -108,10 +104,14 @@ const Banner = () => (
                 {/*<p>Click here for more info</p>*/}
             {/*</Description>*/}
         {/*</Single>*/}
-        <Single>
-        <img src={ColoringBookFlyer}/>
-        </Single>
+
+
+
     </Adverts>
+    <ColoringPages>
+
+    <img src={ColoringBookFlyer}/>
+    </ColoringPages>
   </Container>
 );
 

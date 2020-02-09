@@ -21,7 +21,7 @@ text-align: center;
 font-size: 1.5em;
 
 ${media.phone`
-padding-top: 55px;
+padding-top: 130px;
 `}
 
 p {
@@ -37,7 +37,7 @@ img {
 
 ${media.phone`
 
-    p { 
+    p {
         margin: 15px 25px;
     }
 `}
@@ -63,11 +63,11 @@ div {
   align-items: center;
   margin: 5px 0;
   font-size: .75em;
-  
+
   ${media.phone`
 
 
-    p { 
+    p {
         margin: 0 15px;
     }
     `}
