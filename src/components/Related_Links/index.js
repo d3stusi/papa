@@ -101,14 +101,14 @@ const RelatedLinks = () => (
             <div>
                 <h2>Patrick Ching Art</h2>
                 <br />
-                <p>www.PatrickChingArt.com/</p>
+                <p>www.PatrickChing.com/</p>
             </div>
         </LinkItem>
         <LinkItem color="#9999ff"  onClick={() => window.open('http://www.PatrickChing.com/')}>
             <div>
                 <h2>Patrick Ching Art Lessons</h2>
                 <br />
-                <p>www.PatrickTeaChingArt.com</p>
+                <p>www.PatrickChing.com</p>
             </div>
         </LinkItem>
     </LinkList>
