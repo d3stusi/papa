@@ -32,9 +32,9 @@ width: 100%;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-  
+
   ${media.phone`
-    flex-direction: column;      
+    flex-direction: column;
   `}
 }
 `
@@ -48,23 +48,23 @@ cursor: pointer;
     margin: 20px 10px;
     border-radius: 25px;
     color: #002348;
-    
+
     ${media.phone`
         width: 80%;
         display: block;
-        
+
         margin: 5px auto;
-        
+
         h2 {
             font-size: 1em;
             margin-bottom: -0.55rem;
         }
-        
+
         p {
             display: none;
         }
     `}
-    
+
     div {
         margin: 0 35px;
         }
@@ -97,14 +97,14 @@ const RelatedLinks = () => (
                 <p>http://www.hokulea.com/malamahonua/</p>
             </div>
         </LinkItem>
-        <LinkItem color="#ff9900" onClick={() => window.open('http://www.PatrickChingArt.com/')}>
+        <LinkItem color="#ff9900" onClick={() => window.open('http://www.PatrickChing.com/')}>
             <div>
                 <h2>Patrick Ching Art</h2>
                 <br />
                 <p>www.PatrickChingArt.com/</p>
             </div>
         </LinkItem>
-        <LinkItem color="#9999ff"  onClick={() => window.open('http://www.PatrickTeaChingArt.com/')}>
+        <LinkItem color="#9999ff"  onClick={() => window.open('http://www.PatrickChing.com/')}>
             <div>
                 <h2>Patrick Ching Art Lessons</h2>
                 <br />

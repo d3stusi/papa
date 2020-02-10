@@ -16,11 +16,11 @@ const Container = styled.div`
   align-items: center;
   max-width: 935px;
   margin: 0 auto 150px auto;
-  
+
   ${media.phone`
         padding-top: 55px;
     `}
-  
+
 `
 
 
@@ -32,10 +32,10 @@ const Block = styled.div`
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  
+
   ${media.phone`
     flex-flow: column;
-    
+
     `}
 `
 
@@ -46,7 +46,7 @@ const Info = styled.div`
   h3 {
     font-size: 1.2em;
   }
-  
+
   ${media.phone`
     margin: 20px 0;
     h2 {
@@ -56,27 +56,27 @@ const Info = styled.div`
         font-size: 0.8em;
     }
     `}
-  
+
   div {
   flex: 1;
   padding: 0 15px;
-  
+
   ${media.phone`
     padding: 0 10px;
     `}
   }
-  
+
   embed {
     width: 40px;
     margin: 0 10px 10px 0;
   }
-  
+
 `
 
 const TextProtection = styled.span`
 position: relative;
 
-  
+
 
 h3:first-of-type {user-select: none; }
 
@@ -92,7 +92,7 @@ const Subscribe = styled.div`
   display: flex;
   flex-flow: column;
   margin: 20px;
-  
+
     ${media.phone`
     margin: 20px 0;
     h2 {
@@ -103,7 +103,7 @@ const Subscribe = styled.div`
     }
     `}
 
-  
+
   div {
   padding: 0 15px;
   }
@@ -125,8 +125,8 @@ const Contact = () => (
                 <div>
                     <h2>Email:</h2>
                     <TextProtection>
-                        <h3>aloha@Papahānaumokuākea.com</h3>
-                        <h3>aloha@Papahanaumokuakea.com</h3>
+                        <h3>Aloha@PapahānaumokuākeaSong.com</h3>
+                        <h3>Aloha@PapahanaumokuakeaSong.com</h3>
                     </TextProtection>
                 </div>
                 <div>
