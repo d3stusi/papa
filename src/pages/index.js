@@ -10,13 +10,14 @@ import RelatedLinks from '../components/Related_Links'
 import Contact from '../components/Contact'
 import Banner from '../components/Banner'
 import BumperStickerSignUp from '../components/BumperStickerSignUp'
+import Coloring from '../components/Coloring'
 
 
 const Page = styled.div`
 
-opacity: ${ (props) => props.mounted ? `1;` : `0;`}  
+opacity: ${ (props) => props.mounted ? `1;` : `0;`}
 transition: opacity 1s;
-    
+
 `;
 
 class IndexPage extends React.Component {
@@ -61,6 +62,7 @@ class IndexPage extends React.Component {
                 />
                 <Title />
                 <Banner />
+                <Coloring />
                 <BumperStickerSignUp />
                 <Mission stopPlaying={() => this.stopPlaying()}/>
                 <Purpose />
