@@ -35,10 +35,10 @@ top: -57px;
     width: 200px;
     margin: 15px auto -5px auto;
     flex-flow: column;
-    transform: ${ (props) => (props.hide) ? 'translateX(-400px);' : 'none;' } 
+    transform: ${ (props) => (props.hide) ? 'translateX(-400px);' : 'none;' }
   }
 
-    
+
 `;
 
 const Inner = styled.div`
@@ -58,7 +58,7 @@ embed{
     top: 6px;
     position: relative;
     right: 62px;
-  
+
    svg {
     cursor: pointer;
    }
@@ -72,16 +72,16 @@ embed{
 
 span:first-of-type {
     margin-left: 100px;
-    
+
     @media (max-width: 1150px) {
       margin-left: 0;
     }
-    
+
 }
 
 span:last-of-type {
     margin-right: 100px;
-    
+
     @media (max-width: 1150px) {
       margin-right: 0;
     }
@@ -91,16 +91,16 @@ span {
     flex:2;
     display: flex;
     justify-content: space-evenly;
-    
+
     h1 {
       margin: 0 10px;
     }
-    
+
     @media (max-width: 600px) {
       flex-flow: column;
     }
 }
-   
+
 @media (max-width: 600px) {
     flex-flow: column;
 }
@@ -111,7 +111,7 @@ span:last-of-type {
     content:'';
     display:inline-block;
   }
-  
+
    @media (max-width: 600px) {
     margin-top: 20px;
   }
@@ -124,7 +124,7 @@ font-size: 20px;
   @media (max-width: 1150px) {
     font-size: 1.5vw;
   }
-  
+
   @media (max-width: 600px) {
     font-size: 20px;
   }
@@ -133,15 +133,15 @@ font-size: 20px;
 
 #DownloadDiv {
   margin: 1px 10px !important;
-  
+
   @media (max-width: 414px) {
     margin: 0px !important;
   }
-  
+
 }
 
-    
-    
+
+
 `;
 
 const Circle = styled.div `
@@ -158,7 +158,7 @@ const Circle = styled.div `
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-    
+
     @media (max-width: 600px) {
       width: 52px;
       height: 52px;
@@ -174,7 +174,7 @@ const Circle = styled.div `
         right: 0;
         z-index: 3333;
         background-size: 24px;
-        
+
         @media (max-width: 600px) {
           top: 14px;
           position: absolute;
@@ -186,7 +186,7 @@ const Circle = styled.div `
         transition: all .3s ease-out;
         }
     }
-    
+
 	p {
 	position: absolute;
 	color: #002348;
@@ -196,8 +196,8 @@ const Circle = styled.div `
     font-size: 75%;
     font-weight: 600;
 	}
-	
-	
+
+
 `;
 
 const PlaceholderCircle = styled.div `
@@ -254,7 +254,7 @@ const Social = styled.a`
           cursor: pointer;
         }
     }
-    
+
 `
 
 
@@ -425,18 +425,7 @@ class Header extends React.Component {
                                             TV Show
                                         </a>
                                     </h1>
-                                    <h1>
-                                        <a
-                                            href="https://www.gofundme.com/papahanaumokuakea-song-n-color-book"
-                                            target="_blank"
-                                            style={{
-                                                textDecoration: 'none',
-                                            }}
-                                            onClick={this.toggleHamburger}
-                                        >
-                                            GoFundMe
-                                        </a>
-                                    </h1>
+                                    
                                     <h1>
                                         <a
                                             href="/#contact"

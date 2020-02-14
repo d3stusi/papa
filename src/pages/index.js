@@ -61,8 +61,8 @@ class IndexPage extends React.Component {
                     stopPlaying={() => this.stopPlaying()}
                 />
                 <Title />
-                <Banner />
                 <Coloring />
+                <Banner />
                 <BumperStickerSignUp />
                 <Mission stopPlaying={() => this.stopPlaying()}/>
                 <Purpose />

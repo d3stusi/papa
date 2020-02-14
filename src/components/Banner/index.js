@@ -108,11 +108,7 @@ const Banner = () => (
 
 
     </Adverts>
-    <ColoringPages>
-
-    <img src={ColoringBookFlyer}/>
-    <p>The Papahanaumokuakea Coloring Book is a Work In Progress. Here are the initial coloring book pages and more are coming as we illustrate the long version of the song that includes the atolls. Feel Free to share it and use it for educational purposes. After February 16, 2020.</p>
-    </ColoringPages>
+    
   </Container>
 );
 
