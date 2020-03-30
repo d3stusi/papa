@@ -147,14 +147,14 @@ const Mission = (props) => (
     <Container id="mission">
         <div>
             <div>
-                <h1>Download the Free Papahānaumokuākea Song Coloring Pages</h1>
+                <h1>Download the Free Papahānaumokuākea Song Coloring Book</h1>
 
                 <p> The Papahānaumokuākea Coloring Book is a Work In Progress. Here are the initial coloring book pages and more are coming as we illustrate the long version of the song that includes the atolls. Feel Free to share it, print it, sing it, and use it to teach and enjoy.
                 </p>
             </div>
-            <a href="https://www.bitsofaloha.com/ColoringPages.pdf">
+            <a href="https://www.bitsofaloha.com/ColoringBookPages.pdf">
             <PressRelease>
-                <h3 >Download All Pages</h3>
+                <h3 >Download Coloring Book</h3>
                 <hr />
                 <p>Download all 12 coloring book pages free!
                     <span >
@@ -166,7 +166,7 @@ const Mission = (props) => (
 
         </div>
         <div>
-            <a href="https://www.bitsofaloha.com/ColoringPages.pdf">
+            <a href="https://www.bitsofaloha.com/ColoringBookPages.pdf">
             <Painting  src={ColorCover}  />
             </a>
         </div>
