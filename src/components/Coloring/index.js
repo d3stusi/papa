@@ -19,7 +19,7 @@ justify-content: space-around;
 align-items: center;
 
 a{
-color: white;
+color: #f48df7;
 text-decoration: none;
 }
 
