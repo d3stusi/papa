@@ -166,7 +166,9 @@ const Mission = (props) => (
 
         </div>
         <div>
-            <Painting  src={ColorCover} onClick={() => window.open(`${ReleaseDoc}`)} />
+            <a href="https://www.bitsofaloha.com/ColoringPages.pdf">
+            <Painting  src={ColorCover}  />
+            </a>
         </div>
     </Container>
     );
