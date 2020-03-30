@@ -152,7 +152,7 @@ const Mission = (props) => (
                 <p> The Papahānaumokuākea Coloring Book is a Work In Progress. Here are the initial coloring book pages and more are coming as we illustrate the long version of the song that includes the atolls. Feel Free to share it, print it, sing it, and use it to teach and enjoy.
                 </p>
             </div>
-            <a href="https://www.bitsofaloha.com/ColoringBookPages.pdf">
+            <a href="https://www.bitsofaloha.com/ColoringBookPages2.pdf">
             <PressRelease>
                 <h3 >Download Coloring Book</h3>
                 <hr />
@@ -166,7 +166,7 @@ const Mission = (props) => (
 
         </div>
         <div>
-            <a href="https://www.bitsofaloha.com/ColoringBookPages.pdf">
+            <a href="https://www.bitsofaloha.com/ColoringBookPages2.pdf">
             <Painting  src={ColorCover}  />
             </a>
         </div>
