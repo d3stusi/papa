@@ -37,7 +37,7 @@ flex-flow: column;
         margin: 13px auto !important;
         width: 85% !important;
     }
-    
+
     embed {
         width: 125px !important;
     }
@@ -83,12 +83,12 @@ div {
   display: flex;
   align-items: center;
   margin: auto;
-  
+
   @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
      margin: 0;
   }
 
-  
+
   img {
   width: 50px;
   margin-right: 10px;
@@ -101,6 +101,7 @@ div {
 const Contest = () => (
     <Container id='contest'>
         <div>
+            <a name = "video"></a>
             <img src={Film} />
             <h1>Music Video Send-In</h1>
             <Description>

@@ -372,7 +372,7 @@ class Header extends React.Component {
                                     </h1>
                                     <h1>
                                         <a
-                                            href="/#mission"
+                                            href="/#video"
                                             style={{
                                                 textDecoration: 'none',
                                             }}
@@ -425,7 +425,7 @@ class Header extends React.Component {
                                             TV Show
                                         </a>
                                     </h1>
-                                    
+
                                     <h1>
                                         <a
                                             href="/#contact"
