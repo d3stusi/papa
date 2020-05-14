@@ -120,7 +120,8 @@ const Contact = () => (
                 <div>
                     <h2>Social</h2>
                     <embed className="embed-last" src={Facebook} />
-                    <embed className="embed-last" src={Patreon} />
+                    { //<embed className="embed-last" src={Patreon} />
+                    }
                 </div>
                 <div>
                     <h2>Email:</h2>
