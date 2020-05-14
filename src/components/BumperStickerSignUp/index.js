@@ -176,11 +176,11 @@ export default class BumperStickerSignUp extends React.Component {
         return (
             <BumperContainer>
                 <BumperAd>
-                    <h3>Get your Papahanaumokuakea Sticker FREE</h3>
+                    <h3>Get your Papahanaumokuakea Sticker FREE </h3><br/>
+                    <h4>Send us an Email at Aloha@PapahanaumokuakeaSong.com</h4>
                     <img src={BumperPicture} />
                 </BumperAd>
-                <h4>Send us an Email at Aloha@PapahanaumokuakeaSong.com</h4>
-                <br/><br/><br/>
+
                 {// <BumperForm>
                     // <Form1 is2ndForm={this.state.is2ndForm}>
                     //     <div>
@@ -549,7 +549,7 @@ export default class BumperStickerSignUp extends React.Component {
 
 
 
-                }           </BumperContainer>
+          }           </BumperContainer>
         )
     }
 }

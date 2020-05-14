@@ -125,7 +125,7 @@ const Contact = () => (
                 <div>
                     <h2>Email:</h2>
                     <TextProtection>
-                        <h3>Aloha@PapahānaumokuākeaSong.com</h3>
+                        <h3>Aloha@PapahanaumokuakeaSong.com</h3>
                         <h3>Aloha@PapahanaumokuakeaSong.com</h3>
                     </TextProtection>
                 </div>
@@ -136,18 +136,8 @@ const Contact = () => (
             </Info>
             <Subscribe>
                 <h2>Get project update email notifications:</h2>
-                <div><Email
-                    url="https://patrickteachingart.us11.list-manage.com/subscribe/post?u=00bb906f4310de403db0d029c&amp;id=a3f38ddde1"
-                    render={({ subscribe, status, message }) => (
-                        <CustomForm
-                            status={status}
-                            message={message}
-                            onValidated={formData => subscribe(formData)}
-
-                        />
-                        )}
-                    />
-                </div>
+                <h2>Get project update email notifications:</h2>
+                <div><h4>Get project update email notifications via <a href="www.PatrickChing.com" >PatrickChing.com</a> art newsletter.</h4></div>
             </Subscribe>
         </Block>
     </Container>

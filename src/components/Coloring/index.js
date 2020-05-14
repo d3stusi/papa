@@ -156,7 +156,7 @@ const Mission = (props) => (
             <PressRelease>
                 <h3 >Download Coloring Book</h3>
                 <hr />
-                <p>Download all 12 coloring book pages free!
+                <p>Includes lyrics and ukulele chords to the song
                     <span >
                         <embed src={File}/>
                     </span>

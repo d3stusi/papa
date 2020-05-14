@@ -103,6 +103,7 @@ const Contest = () => (
         <div>
             <a name = "video"></a>
             <img src={Film} />
+            <a name="#video"></a>
             <h1>Music Video Send-In</h1>
             <Description>
                 <div>
